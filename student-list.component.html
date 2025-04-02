@@ -1,0 +1,6 @@
+<h2>Student List</h2>
+<ul>
+  <li *ngFor="let student of students" (click)="selectStudent(student)">
+    {{ student.name }}
+  </li>
+</ul>
